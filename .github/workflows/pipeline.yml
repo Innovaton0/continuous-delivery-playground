@@ -18,8 +18,8 @@ jobs:
           npm ci
           npm run test:unit
 
-    defaults:
-       run:
-          working-directory: modern-web-app      
-      env:
-         NODE_VERSION: "14.17"
+defaults:
+    run:
+      working-directory: modern-web-app      
+env:
+     NODE_VERSION: "14.17"
